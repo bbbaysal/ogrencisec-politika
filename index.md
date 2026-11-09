@@ -6,7 +6,7 @@
 **Son Güncelleme Tarihi:** 9 Kasım 2026  
 **Uygulama Adı:** Öğrenci Seç  
 **Paket Adı:** `com.bbbaysal.ogrencisec`  
-**Geliştirici:** Bayram Baysal (`bbbaysal`)  
+**Geliştirici:** Bekir Bergin BAYSAL (`bbbaysal`)  
 
 Bu Gizlilik Politikası, **Öğrenci Seç** ("Uygulama") mobil uygulamasını kullandığınızda kişisel verilerinizin nasıl toplandığını, kullanıldığını, saklandığını ve korunduğunu açıklar. Uygulamamızı kullanarak bu politikada belirtilen şartları kabul etmiş olursunuz.
 
