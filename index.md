@@ -1,3 +1,5 @@
+Gizlilik Politikası: [privacy-policy.html](privacy-policy.html)
+Hesap Silme: [delete-account.html](delete-account.html)
 # Gizlilik Politikası (Privacy Policy) - Öğrenci Seç
 
 **Son Güncelleme Tarihi:** 9 Kasım 2026  
