@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap ve Veri Silme Talebi - Öğrenci Seç</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --surface-color: #1e293b;
+            --card-color: #334155;
+            --accent-color: #38bdf8;
+            --danger-color: #f43f5e;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: #475569;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 40px auto;
+            background-color: var(--surface-color);
+            padding: 40px 32px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            border: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 26px;
+            color: var(--text-main);
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: #cbd5e1;
+            margin-bottom: 16px;
+            font-size: 15px;
+        }
+
+        .card {
+            background-color: var(--card-color);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .card-danger {
+            border-left-color: var(--danger-color);
+            background-color: rgba(244, 63, 94, 0.1);
+        }
+
+        ol {
+            margin-left: 20px;
+            margin-bottom: 16px;
+            color: #cbd5e1;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        li strong {
+            color: var(--text-main);
+        }
+
+        .btn-email {
+            display: inline-block;
+            background-color: var(--danger-color);
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .btn-email:hover {
+            opacity: 0.9;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 13px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Hesap ve Veri Silme Talebi</h1>
+    <p><strong>Uygulama:</strong> Öğrenci Seç (<code>com.bbbaysal.ogrencisec</code>)</p>
+
+    <p>Google Play Store politikaları ve kişisel verilerin korunması kanunları (KVKK / GDPR) kapsamında, kullanıcılarımız diledikleri zaman hesaplarının ve uygulamada depolanan tüm ilişkili verilerinin kalıcı olarak silinmesini talep edebilirler.</p>
+
+    <div class="card">
+        <h3>Yöntem 1: Uygulama İçinden Anında Silme (Önerilen)</h3>
+        <p>Hesabınızı ve verilerinizi anında silmek için:</p>
+        <ol>
+            <li><strong>Öğrenci Seç</strong> uygulamasını açın ve giriş yapın.</li>
+            <li>Alt menüdeki <strong>Profilim</strong> (👤) sekmesine dokunun.</li>
+            <li>Sayfanın en altındaki kırmızı <strong>"Tüm Verilerimi ve Hesabımı Sil"</strong> butonuna tıklayın ve onaylayın.</li>
+        </ol>
+        <p><em>Bu işlem sonucunda profiliniz, sınıflarınız, öğrencileriniz ve tahta geçmişiniz sunucularımızdan anında ve kalıcı olarak silinir.</em></p>
+    </div>
+
+    <div class="card card-danger">
+        <h3>Yöntem 2: E-posta ile Silme Talebi İletme</h3>
+        <p>Uygulamayı cihazınızdan kaldırdıysanız veya erişemiyorsanız, kayıtlı e-posta adresinizden bize talepte bulunabilirsiniz:</p>
+        <p><strong>E-posta Adresi:</strong> <code>destek.ogrencisec@gmail.com</code></p>
+        <p>Talebiniz bize ulaştıktan sonra en geç <strong>24-48 saat</strong> içinde hesabınız ve tüm veritabanı kayıtlarınız kalıcı olarak silinecek ve size onay bildirimi gönderilecektir.</p>
+        
+        <a href="mailto:destek.ogrencisec@gmail.com?subject=%C3%96%C4%9Frenci%20Se%C3%A7%20Hesap%20Silme%20Talebi" class="btn-email">E-posta ile Silme Talebi Gönder</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Öğrenci Seç - Geliştirici: Bayram Baysal</p>
+    </footer>
+</div>
+
+</body>
+</html>
+

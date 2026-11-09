@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gizlilik Politikası - Öğrenci Seç</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --surface-color: #1e293b;
+            --card-color: #334155;
+            --accent-color: #38bdf8;
+            --accent-hover: #0284c7;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --danger-color: #f43f5e;
+            --border-color: #475569;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            background-color: var(--surface-color);
+            padding: 40px 32px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            border: 1px solid var(--border-color);
+        }
+
+        header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: rgba(56, 189, 248, 0.15);
+            color: var(--accent-color);
+            padding: 4px 12px;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: var(--text-main);
+            margin-bottom: 8px;
+        }
+
+        .meta {
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: var(--accent-color);
+            margin-top: 32px;
+            margin-bottom: 16px;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 12px;
+        }
+
+        h3 {
+            font-size: 16px;
+            color: var(--text-main);
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+
+        p {
+            color: #cbd5e1;
+            margin-bottom: 14px;
+            font-size: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 16px;
+            color: #cbd5e1;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+
+        li strong {
+            color: var(--text-main);
+        }
+
+        .card {
+            background-color: var(--card-color);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin: 16px 0;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .card-danger {
+            border-left-color: var(--danger-color);
+            background-color: rgba(244, 63, 94, 0.1);
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 13px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <span class="badge">Google Play ve KVKK/GDPR Uyumlu</span>
+        <h1>Gizlilik Politikası (Privacy Policy)</h1>
+        <p class="meta"><strong>Uygulama:</strong> Öğrenci Seç (<code>com.bbbaysal.ogrencisec</code>) | <strong>Son Güncelleme:</strong> 9 Kasım 2026</p>
+    </header>
+
+    <p>Bu Gizlilik Politikası, <strong>Öğrenci Seç</strong> mobil uygulamasını kullandığınızda kişisel verilerinizin nasıl toplandığını, işlendiğini ve korunduğunu açıklamaktadır. Uygulamayı kullanarak bu ilkeleri kabul etmiş sayılırsınız.</p>
+
+    <h2>1. Toplanan Bilgiler ve Amaçları</h2>
+    
+    <h3>A. Öğretmen Hesap Bilgileri</h3>
+    <p>Uygulamaya kayıt olurken Ad-Soyad, E-posta adresi, Branş ve Şifre bilgisi alınır. Bu veriler yalnızca oturum açmanız ve sınıflarınızı cihazlarınız (telefon ve akıllı tahta) arasında güvenle eşitlemeniz için kullanılır.</p>
+    <div class="card">
+        <strong>🔒 Şifreleme Güvencesi:</strong> Şifreniz sunucularımızda asla düz metin olarak saklanmaz. Endüstri standardı <code>bcrypt</code> algoritmasıyla tek yönlü kriptografik hash olarak tutulur.
+    </div>
+
+    <h3>B. Sınıf ve Öğrenci Listesi Verileri</h3>
+    <p>Öğretmen tarafından sisteme eklenen sınıf adları, öğrenci okul numaraları, ad-soyadları ve tahtaya kalkma puanları tutulur. Bu veriler <strong>sadece ders esnasında adil kura çekimi ve puanlama yapılması amacıyla</strong> saklanır. Asla 3. şahıslara satılmaz, reklam hedeflemesinde kullanılmaz veya ticari amaçla işlenmez.</p>
+
+    <h3>C. Cihaz İzinleri</h3>
+    <ul>
+        <li><strong>Kamera (<code>CAMERA</code>):</strong> Yalnızca akıllı tahtadaki karekodu (QR kod) okuyarak tahtada oturum açmak için kullanılır. Fotoğraf/video kaydedilmez.</li>
+        <li><strong>İnternet (<code>INTERNET</code>):</strong> Sınıf verilerini Supabase bulut sunucusu ile eşitlemek ve reklam gösterimi için kullanılır.</li>
+        <li><strong>Titreşim (<code>VIBRATE</code>):</strong> Öğrenci seçildiğinde dokunsal geri bildirim sağlamak için kullanılır.</li>
+    </ul>
+
+    <h2>2. Üçüncü Taraf Hizmetleri (Third-Party Services)</h2>
+    <p>Uygulamanın çalışması için aşağıdaki güvenilir üçüncü taraf kütüphaneleri kullanılmaktadır:</p>
+    <ul>
+        <li><strong>Google AdMob (Google LLC):</strong> Uygulama içi banner ve geçiş reklamlarının sunulması için kullanılır. Google AdMob, reklamların sıklığı ve sunumu için Cihaz Reklam Kimliğini (Advertising ID) işleyebilir. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Gizlilik Politikası</a>.</li>
+        <li><strong>Supabase (Supabase Inc.):</strong> Güvenli veritabanı, kimlik doğrulama ve veri eşitleme altyapısı için kullanılır. <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase Gizlilik Politikası</a>.</li>
+    </ul>
+
+    <h2>3. Veri Güvenliği (Data Security)</h2>
+    <p>Tüm veri iletişimi <strong>HTTPS / TLS 1.3</strong> şifreleme protokolüyle korunur. Ayrıca veritabanında uygulanan <strong>Row Level Security (RLS)</strong> kuralları sayesinde, bir öğretmenin girdiği öğrenci listelerine başka hiçbir kullanıcının erişmesi mümkün değildir.</p>
+
+    <h2>4. Hesap ve Veri Silme Hakkı (Data Deletion)</h2>
+    <div class="card card-danger">
+        <strong>🗑️ Tek Dokunuşla Hesap ve Veri Silme:</strong><br>
+        Kullanıcılar diledikleri zaman uygulama içindeki <strong>Profilim</strong> sekmesine giderek <strong>"Tüm Verilerimi ve Hesabımı Sil"</strong> butonuna basabilirler. Bu işlem sonucunda kullanıcı profili, sınıfları, öğrencileri ve tüm puan kayıtları anında ve geri döndürülemez şekilde veritabanımızdan kalıcı olarak silinir.
+    </div>
+
+    <h2>5. Çocukların Gizliliği</h2>
+    <p>Uygulamamız öğretmen kullanımına yöneliktir. Öğrenci ad ve numaraları yalnızca öğretmenin kendi kura seçimlerini yapabilmesi için sınıf aracı olarak tutulur. 13 yaşından küçük öğrencilerden doğrudan herhangi bir veri toplanmaz.</p>
+
+    <h2>6. İletişim</h2>
+    <p>Gizlilik Politikası ile ilgili her türlü soru ve talebiniz için bize ulaşabilirsiniz:</p>
+    <ul>
+        <li><strong>Geliştirici:</strong> Bayram Baysal</li>
+        <li><strong>E-posta:</strong> destek.ogrencisec@gmail.com</li>
+    </ul>
+
+    <footer>
+        <p>&copy; 2026 Öğrenci Seç. Tüm hakları saklıdır.</p>
+    </footer>
+</div>
+
+</body>
+</html>
+
