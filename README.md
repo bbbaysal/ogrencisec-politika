@@ -1,0 +1,1 @@
+# ogrencisec-politika
